@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Xenon-Dent - gabinet stomatologiczny Kielce, Osiedle Vis a Vis | lek. dent. Agnieszka Królik-Bulińska</title>
+<meta name="description" content="Gabinet stomatologiczny Xenon-Dent w Kielcach, ul. Szajnowicza-Iwanowa 13E (Osiedle Vis a Vis). Leczenie zachowawcze, kanałowe, protetyka, wybielanie, stomatologia dziecięca. Tel. 505 035 488.">
+<meta property="og:title" content="Xenon-Dent - gabinet stomatologiczny w Kielcach">
+<meta property="og:description" content="Nasz sposób na sukces? Piękny uśmiech zadowolonego pacjenta. Kielce, ul. Szajnowicza-Iwanowa 13E.">
+<meta property="og:image" content="img/g1.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--roz:#e5007d;--roz2:#c2006a;--szary:#4a4a4a;--jasny:#f6f6f8;--linia:#e6e6ea;--tekst:#2b2b2b}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:Nunito,system-ui,Segoe UI,Arial,sans-serif;color:var(--tekst);background:#fff;line-height:1.6;font-size:17px}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--roz)}
+.wrap{max-width:1140px;margin:0 auto;padding:0 20px}
+.pasek{background:#1d1d1f;color:#cfcfd4;font-size:13px;text-align:center;padding:6px 12px}
+.pasek b{color:#fff}
+header{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid var(--linia);box-shadow:0 2px 10px rgba(0,0,0,.04)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:10px 0}
+.logo img{height:52px;width:auto}
+nav ul{list-style:none;margin:0;padding:0;display:flex;gap:26px}
+nav a{color:var(--szary);text-decoration:none;font-weight:700;font-size:15px}
+nav a:hover{color:var(--roz)}
+.tel{background:var(--roz);color:#fff!important;padding:10px 18px;border-radius:999px;font-weight:800;text-decoration:none;white-space:nowrap;display:inline-flex;align-items:center;gap:8px}
+.tel:hover{background:var(--roz2)}
+.burger{display:none;background:none;border:0;font-size:28px;line-height:1;color:var(--szary);cursor:pointer}
+.hero{background:linear-gradient(180deg,#fff 0%,var(--jasny) 100%)}
+.hero .wrap{display:grid;grid-template-columns:1.05fr 1fr;gap:40px;align-items:center;padding-top:56px;padding-bottom:56px}
+.hero h1{font-size:44px;line-height:1.12;margin:0 0 14px;font-weight:800;color:#1d1d1f}
+.hero h1 span{color:var(--roz)}
+.hero p{font-size:19px;color:var(--szary);margin:0 0 26px}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:14px 26px;border-radius:999px;font-weight:800;text-decoration:none;font-size:16px}
+.btn-p{background:var(--roz);color:#fff}.btn-p:hover{background:var(--roz2)}
+.btn-s{background:#fff;color:var(--szary);border:2px solid var(--linia)}.btn-s:hover{border-color:var(--roz);color:var(--roz)}
+.hero-img{border-radius:22px;overflow:hidden;box-shadow:0 20px 50px rgba(229,0,125,.14);aspect-ratio:4/3}
+.hero-img img{width:100%;height:100%;object-fit:cover}
+.zaufanie{display:flex;gap:28px;flex-wrap:wrap;margin-top:28px;font-size:14px;color:var(--szary)}
+.zaufanie b{display:block;color:#1d1d1f;font-size:20px}
+section{padding:64px 0}
+h2{font-size:32px;margin:0 0 10px;color:#1d1d1f;font-weight:800}
+.lead{color:var(--szary);max-width:720px;margin:0 0 34px;font-size:18px}
+.onas{display:grid;grid-template-columns:1.2fr .8fr;gap:44px;align-items:center}
+.onas p{margin:0 0 16px}
+.podpis{margin-top:18px;font-style:italic;color:var(--szary)}
+.onas img{border-radius:18px}
+.uslugi{background:var(--jasny)}
+.karty{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.karta{background:#fff;border:1px solid var(--linia);border-radius:18px;padding:24px}
+.karta h3{margin:0 0 10px;font-size:19px;color:var(--roz)}
+.karta ul{margin:0;padding-left:18px;color:var(--szary);font-size:15.5px}
+.karta li{margin:4px 0}
+.galeria{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.galeria a{border-radius:14px;overflow:hidden;aspect-ratio:4/3;display:block;background:#eee}
+.galeria img{width:100%;height:100%;object-fit:cover;transition:transform .35s}
+.galeria a:hover img{transform:scale(1.04)}
+.porady{background:var(--jasny)}
+.porady .karta{display:flex;flex-direction:column}
+.porady .karta p{color:var(--szary);font-size:15.5px;flex:1}
+.porady a{font-weight:800;text-decoration:none}
+.kontakt .wrap{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+.dane{font-size:17px}.dane p{margin:0 0 12px}
+.dane a.big{font-size:24px;font-weight:800;text-decoration:none;display:inline-block}
+.godz{margin-top:18px;padding:16px 18px;background:var(--jasny);border-radius:14px;font-size:15px;color:var(--szary)}
+.mapa{border-radius:18px;overflow:hidden;border:1px solid var(--linia)}
+.mapa img{width:100%}
+.mapa a{display:block;text-align:center;padding:12px;font-weight:700;text-decoration:none;background:#fff}
+footer{background:#1d1d1f;color:#bdbdc4;padding:34px 0;font-size:14px}
+footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center}
+footer a{color:#fff;text-decoration:none}
+.fab{position:fixed;right:16px;bottom:16px;z-index:60;display:none}
+@media (max-width:900px){
+ .hero .wrap,.onas,.kontakt .wrap{grid-template-columns:1fr}
+ .hero h1{font-size:34px}.karty{grid-template-columns:1fr 1fr}.galeria{grid-template-columns:repeat(3,1fr)}
+ .hero .wrap{padding-top:34px;padding-bottom:40px}.onas img{order:-1}
+}
+@media (max-width:640px){
+ body{font-size:16px}.burger{display:block}
+ nav{display:none;position:absolute;left:0;right:0;top:100%;background:#fff;border-bottom:1px solid var(--linia);padding:10px 20px 16px}
+ nav.open{display:block}nav ul{flex-direction:column;gap:12px}
+ .nav .tel{display:none}.fab{display:inline-flex}
+ .hero h1{font-size:29px}.hero p{font-size:17px}
+ .karty{grid-template-columns:1fr}.galeria{grid-template-columns:1fr 1fr}
+ section{padding:44px 0}h2{font-size:26px}
+ .logo img{height:44px}
+}
+</style>
+</head>
+<body>
+<div class="pasek"><b>Podgląd koncepcji</b> nowej strony xenon-dent.pl - wersja robocza na obecnych treściach i zdjęciach gabinetu. Przygotował Łukasz Stasiak, 18.09.2026.</div>
+<header>
+ <div class="wrap nav">
+  <a class="logo" href="#"><img src="img/logo.png" alt="Xenon-Dent Stomatologia" width="361" height="113"></a>
+  <button class="burger" aria-label="Menu" onclick="document.querySelector('nav').classList.toggle('open')">&#9776;</button>
+  <nav><ul>
+   <li><a href="#onas">O nas</a></li><li><a href="#uslugi">Zakres usług</a></li><li><a href="#galeria">Galeria</a></li><li><a href="#porady">Porady</a></li><li><a href="#kontakt">Kontakt</a></li>
+  </ul></nav>
+  <a class="tel" href="tel:+48505035488">&#9742; 505 035 488</a>
+ </div>
+</header>
+
+<section class="hero">
+ <div class="wrap">
+  <div>
+   <h1>Nasz sposób na sukces?<br><span>Piękny uśmiech zadowolonego pacjenta.</span></h1>
+   <p>Gabinet stomatologiczny Xenon-Dent w Kielcach na Osiedlu Vis a Vis. Nowoczesne standardy leczenia, indywidualny plan profilaktyczno-leczniczy i wizyty umawiane pod Państwa czas.</p>
+   <div class="cta"><a class="btn btn-p" href="tel:+48505035488">Zadzwoń i umów wizytę</a><a class="btn btn-s" href="#uslugi">Zobacz zakres usług</a></div>
+   <div class="zaufanie"><div><b>RTG i RVG cyfrowe</b>o ok. 90% mniejsza dawka promieniowania</div><div><b>Bez stresu</b>komfort i bezpieczeństwo leczenia</div><div><b>Dzieci i dorośli</b>pełen zakres stomatologii</div></div>
+  </div>
+  <div class="hero-img"><img src="img/g1.jpg" alt="Gabinet Xenon-Dent, Kielce, ul. Szajnowicza-Iwanowa 13E" width="800" height="535" fetchpriority="high"></div>
+ </div>
+</section>
+
+<section id="onas">
+ <div class="wrap onas">
+  <div>
+   <h2>O nas</h2>
+   <p>Gabinet stomatologiczny <b>Xenon-Dent</b> przy <b>ul. Szajnowicza-Iwanowa 13E w Kielcach</b> (Osiedle Vis a Vis) powstał z myślą o pacjentach wymagających, ceniących bezpieczeństwo i komfort leczenia. Wprowadzając nowoczesne standardy stomatologii, udowadniamy, że stres związany z wizytą u dentysty odchodzi w przeszłość.</p>
+   <p>Największą uwagę przykładamy do jakości usług. Naszym celem jest komfort i zadowolenie Pacjentów, dlatego oferujemy indywidualne podejście i całościowy plan profilaktyczno-leczniczy. Każda wizyta jest wcześniej ustalana zgodnie z Państwa preferencjami i potrzebami.</p>
+   <p>Stale przechodzimy szkolenia i kursy, stosujemy materiały najwyższej jakości i bezpieczne techniki zabiegowe. Gabinet wyposażony jest w nowoczesne urządzenie do RTG i radiowizjografii cyfrowej, które daje szerokie możliwości diagnostyczne przy dawce promieniowania zredukowanej o około 90% w stosunku do zdjęcia klasycznego.</p>
+   <p class="podpis">lek. dent. Agnieszka Królik-Bulińska</p>
+  </div>
+  <img src="img/g3.jpg" alt="Wnętrze gabinetu Xenon-Dent" width="800" height="535" loading="lazy">
+ </div>
+</section>
+
+<section id="uslugi" class="uslugi">
+ <div class="wrap">
+  <h2>Zakres usług</h2>
+  <p class="lead">W miłej atmosferze świadczymy kompleksowe i profesjonalne usługi dentystyczne. Oferujemy również inne świadczenia stomatologiczne - zapraszamy do kontaktu.</p>
+  <div class="karty">
+   <div class="karta"><h3>Profilaktyka</h3><ul><li>lakowanie i lakierowanie zębów</li><li>skaling - usuwanie kamienia nazębnego</li><li>impregnacja</li><li>fluoryzacja</li></ul></div>
+   <div class="karta"><h3>Stomatologia zachowawcza</h3><ul><li>odbudowa zębów zniszczonych próchnicą</li><li>endodoncja - leczenie kanałowe</li><li>odbudowa zęba po leczeniu kanałowym</li><li>odbudowa na włóknach szklanych</li></ul></div>
+   <div class="karta"><h3>Stomatologia estetyczna</h3><ul><li>wybielanie zębów</li><li>piaskowanie zębów</li><li>korekta kształtu i koloru zębów</li><li>licówki kompozytowe</li></ul></div>
+   <div class="karta"><h3>Protetyka</h3><ul><li>protezy akrylowe</li><li>korony i mosty porcelanowe</li><li>wkłady koronowo-korzeniowe</li><li>szyny rekonstrukcyjne i ochronne</li><li>implantoprotetyka</li></ul></div>
+   <div class="karta"><h3>Stomatologia dziecięca</h3><ul><li>pierwsze wizyty zapoznawcze</li><li>odbudowa zębów mlecznych</li><li>kolorowe wypełnienia</li></ul></div>
+   <div class="karta"><h3>Chirurgia stomatologiczna</h3><ul><li>usuwanie zębów, których stan nie pozwala na leczenie</li><li>nacięcia ropni</li></ul></div>
+  </div>
+ </div>
+</section>
+
+<section id="galeria">
+ <div class="wrap">
+  <h2>Galeria</h2>
+  <p class="lead">Gabinet, poczekalnia i wyposażenie - zdjęcia z obecnej strony.</p>
+  <div class="galeria">
+   <a href="img/g1.jpg"><img src="img/g1-m.jpg" alt="Wejście do gabinetu Xenon-Dent" loading="lazy"></a>
+   <a href="img/g2.jpg"><img src="img/g2-m.jpg" alt="Gabinet zabiegowy" loading="lazy"></a>
+   <a href="img/g3.jpg"><img src="img/g3-m.jpg" alt="Unit stomatologiczny" loading="lazy"></a>
+   <a href="img/g4.jpg"><img src="img/g4-m.jpg" alt="Wnętrze gabinetu" loading="lazy"></a>
+   <a href="img/g5.jpg"><img src="img/g5-m.jpg" alt="Fotel dentystyczny" loading="lazy"></a>
+   <a href="img/g6.jpg"><img src="img/g6-m.jpg" alt="Wyposażenie gabinetu" loading="lazy"></a>
+   <a href="img/g7.jpg"><img src="img/g7-m.jpg" alt="Poczekalnia" loading="lazy"></a>
+   <a href="img/g8.jpg"><img src="img/g8-m.jpg" alt="Recepcja" loading="lazy"></a>
+   <a href="img/g9.jpg"><img src="img/g9-m.jpg" alt="Gabinet Xenon-Dent" loading="lazy"></a>
+   <a href="img/g10.jpg"><img src="img/g10-m.jpg" alt="Sprzęt stomatologiczny" loading="lazy"></a>
+  </div>
+ </div>
+</section>
+
+<section id="porady" class="porady">
+ <div class="wrap">
+  <h2>Porady</h2>
+  <p class="lead">Krótkie, praktyczne wskazówki dla Pacjentów.</p>
+  <div class="karty">
+   <div class="karta"><h3>Kilka słów o piaskowaniu zębów</h3><p>Piaskowanie to jeden z podstawowych zabiegów w gabinecie. Polega na usuwaniu osadów z zębów za pomocą piaskarki - urządzenia kierującego strumień drobnego proszku i wody.</p><a href="#">Czytaj więcej &rarr;</a></div>
+   <div class="karta"><h3>Higiena jamy ustnej po ekstrakcji zęba</h3><p>Po usunięciu zęba trzeba w sposób szczególny zadbać o higienę. Zagryzaj gazik przez 30 minut, aby zatamować krwawienie, i unikaj płukania ust w pierwszej dobie.</p><a href="#">Czytaj więcej &rarr;</a></div>
+   <div class="karta"><h3>Jak prawidłowo myć zęby?</h3><p>Wydawałoby się, że to czynność prosta, a wciąż zbyt wiele osób popełnia podstawowe błędy przy szczotkowaniu. Sprawdź, na co zwrócić uwagę.</p><a href="#">Czytaj więcej &rarr;</a></div>
+  </div>
+ </div>
+</section>
+
+<section id="kontakt" class="kontakt">
+ <div class="wrap">
+  <div class="dane">
+   <h2>Kontakt i rejestracja</h2>
+   <p><b>Xenon-Dent</b> - gabinet stomatologiczny<br>ul. Szajnowicza-Iwanowa 13E lok. 2<br>25-636 Kielce (Osiedle Vis a Vis)</p>
+   <p>lek. dent. Agnieszka Królik-Bulińska</p>
+   <p><a class="big" href="tel:+48505035488">505 035 488</a><br><a class="big" href="tel:+48534701211">534 701 211</a></p>
+   <p><a href="mailto:gabinet@xenon-dent.pl">gabinet@xenon-dent.pl</a></p>
+   <div class="godz">Godziny przyjęć: <i>do uzupełnienia przez gabinet</i> (na obecnej stronie nie ma godzin - to jedna z najczęściej szukanych informacji w Google).</div>
+  </div>
+  <div class="mapa">
+   <img src="img/mapa.jpg" alt="Mapa dojazdu - Kielce, ul. Szajnowicza-Iwanowa 13E" width="405" height="214" loading="lazy">
+   <a href="https://www.google.com/maps/search/?api=1&query=Xenon-Dent+Szajnowicza-Iwanowa+13E+Kielce" target="_blank" rel="noopener">Otwórz nawigację w Google Maps &rarr;</a>
+  </div>
+ </div>
+</section>
+
+<footer>
+ <div class="wrap">
+  <div>&copy; 2026 Xenon-Dent, Kielce &middot; <a href="#">Polityka prywatności</a></div>
+  <div><a href="https://www.facebook.com/pages/Xenon-Dent-Gabinet-Dentystyczny/1396578110638405" target="_blank" rel="noopener">Facebook</a></div>
+ </div>
+</footer>
+<a class="fab tel" href="tel:+48505035488">&#9742; Zadzwoń</a>
+</body>
+</html>
